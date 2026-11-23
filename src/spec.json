@@ -244,6 +244,74 @@
         ]
       ],
       "form": []
+    },
+    {
+      "id": "catalogo-macro-aree",
+      "title": "Catalogo per macro-area",
+      "description": "Classifica le richieste di assistenza in cinque aree per facilitarne la consultazione.",
+      "metrics": [
+        {
+          "label": "Macro-aree",
+          "value": "5"
+        },
+        {
+          "label": "Richieste catalogate",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Richiesta",
+        "Macro-area",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Accesso al gestionale non disponibile",
+          "Accessi e account",
+          "In lavorazione"
+        ],
+        [
+          "Stampante condivisa ferma",
+          "Dispositivi e stampa",
+          "Da verificare"
+        ],
+        [
+          "Postazione senza collegamento",
+          "Rete e connettività",
+          "Assegnata"
+        ],
+        [
+          "Impossibile stampare un documento",
+          "Dispositivi e stampa",
+          "Chiusa"
+        ],
+        [
+          "Aggiornamento richiesto per un programma",
+          "Software e aggiornamenti",
+          "In lavorazione"
+        ],
+        [
+          "Nuovo accesso per una postazione",
+          "Accessi e account",
+          "Chiusa"
+        ],
+        [
+          "Cartella condivisa non aggiornata",
+          "File e cartelle",
+          "In lavorazione"
+        ],
+        [
+          "Configurazione di una postazione",
+          "Dispositivi e stampa",
+          "Chiusa"
+        ]
+      ],
+      "form": [
+        "Richiesta",
+        "Macro-area",
+        "Stato"
+      ],
+      "chartColumn": 1
     }
   ],
   "theme": {
