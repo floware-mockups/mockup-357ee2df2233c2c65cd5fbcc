@@ -249,5 +249,31 @@
   "theme": {
     "palette": "terracotta",
     "fonts": "classico"
-  }
+  },
+  "custom": [
+    {
+      "name": "IndicatoriCruscotto",
+      "title": "Indicatori delle richieste",
+      "description": "Evidenzia priorità e stato accanto alla richiesta, aggiornandosi con i dati.",
+      "role": "cell",
+      "pageId": "cruscotto",
+      "column": "Richiesta"
+    },
+    {
+      "name": "IndicatoriRegistro",
+      "title": "Indicatori delle richieste",
+      "description": "Mostra separatamente priorità e stato senza nascondere eventuali condizioni concomitanti.",
+      "role": "cell",
+      "pageId": "registro-richieste",
+      "column": "Richiesta"
+    },
+    {
+      "name": "IndicatoriChiusura",
+      "title": "Indicatori delle richieste",
+      "description": "Rende visibili priorità e stato nella pagina di dettaglio e chiusura.",
+      "role": "cell",
+      "pageId": "dettaglio-e-chiusura",
+      "column": "Richiesta"
+    }
+  ]
 }
