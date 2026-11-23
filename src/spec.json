@@ -1,0 +1,253 @@
+{
+  "title": "Gestione delle richieste di assistenza informatica",
+  "description": "Registra le richieste al CED, ordinale per urgenza e segui tempi, incarichi e chiusura.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Panoramica delle richieste, delle scadenze e dei controlli da fare.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "8"
+        },
+        {
+          "label": "Bloccanti o urgenti",
+          "value": "3"
+        },
+        {
+          "label": "In attesa di verifica",
+          "value": "2"
+        },
+        {
+          "label": "Chiuse questo mese",
+          "value": "14"
+        }
+      ],
+      "columns": [
+        "Richiesta",
+        "Priorità",
+        "Ufficio",
+        "Incaricato",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Accesso al gestionale non disponibile",
+          "Bloccante",
+          "Ufficio Vela",
+          "Tecnico Nubi",
+          "14/05/2026 12:00",
+          "In lavorazione"
+        ],
+        [
+          "Stampante condivisa ferma",
+          "Urgente",
+          "Ufficio Lumo",
+          "Tecnico Orbi",
+          "14/05/2026 15:00",
+          "Da verificare"
+        ],
+        [
+          "Postazione senza collegamento",
+          "Bloccante",
+          "Ufficio Cobalto",
+          "Tecnico Nubi",
+          "15/05/2026 10:00",
+          "Assegnata"
+        ],
+        [
+          "Aggiornamento richiesto per un programma",
+          "Normale",
+          "Ufficio Mirto",
+          "Tecnico Orbi",
+          "16/05/2026 16:00",
+          "In lavorazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-richieste",
+      "title": "Registro richieste",
+      "description": "Cerca le richieste e filtra per stato o priorità. Le richieste bloccanti e urgenti sono evidenziate per prime.",
+      "metrics": [],
+      "columns": [
+        "Richiesta",
+        "Data e ora",
+        "Ufficio",
+        "Priorità",
+        "Incaricato",
+        "Inizio gestione",
+        "Chiusura",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Accesso al gestionale non disponibile",
+          "14/05/2026 08:20",
+          "Ufficio Vela",
+          "Bloccante",
+          "Tecnico Nubi",
+          "14/05/2026 08:35",
+          "—",
+          "In lavorazione"
+        ],
+        [
+          "Stampante condivisa ferma",
+          "14/05/2026 08:45",
+          "Ufficio Lumo",
+          "Urgente",
+          "Tecnico Orbi",
+          "14/05/2026 09:10",
+          "—",
+          "Da verificare"
+        ],
+        [
+          "Postazione senza collegamento",
+          "14/05/2026 09:05",
+          "Ufficio Cobalto",
+          "Bloccante",
+          "Tecnico Nubi",
+          "—",
+          "—",
+          "Assegnata"
+        ],
+        [
+          "Impossibile stampare un documento",
+          "13/05/2026 16:30",
+          "Ufficio Smeraldo",
+          "Urgente",
+          "Tecnico Orbi",
+          "13/05/2026 16:40",
+          "13/05/2026 17:25",
+          "Chiusa"
+        ],
+        [
+          "Aggiornamento richiesto per un programma",
+          "13/05/2026 14:15",
+          "Ufficio Mirto",
+          "Normale",
+          "Tecnico Orbi",
+          "14/05/2026 10:00",
+          "—",
+          "In lavorazione"
+        ],
+        [
+          "Nuovo accesso per una postazione",
+          "12/05/2026 11:20",
+          "Ufficio Lumo",
+          "Bassa",
+          "Tecnico Nubi",
+          "12/05/2026 13:00",
+          "12/05/2026 13:40",
+          "Chiusa"
+        ],
+        [
+          "Cartella condivisa non aggiornata",
+          "12/05/2026 09:50",
+          "Ufficio Vela",
+          "Urgente",
+          "Tecnico Nubi",
+          "12/05/2026 10:05",
+          "—",
+          "In lavorazione"
+        ],
+        [
+          "Configurazione di una postazione",
+          "11/05/2026 15:10",
+          "Ufficio Cobalto",
+          "Normale",
+          "Tecnico Orbi",
+          "12/05/2026 09:00",
+          "12/05/2026 09:35",
+          "Chiusa"
+        ]
+      ],
+      "form": [
+        "Richiesta",
+        "Data e ora",
+        "Ufficio",
+        "Priorità",
+        "Incaricato",
+        "Inizio gestione",
+        "Chiusura",
+        "Stato"
+      ]
+    },
+    {
+      "id": "dettaglio-e-chiusura",
+      "title": "Dettaglio e chiusura",
+      "description": "Controlla il tempo trascorso, aggiorna lo stato e annota l'esito della richiesta.",
+      "metrics": [
+        {
+          "label": "Da assegnare",
+          "value": "2"
+        },
+        {
+          "label": "Oltre la scadenza",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Richiesta",
+        "Ufficio",
+        "Priorità",
+        "Incaricato",
+        "Data e ora",
+        "Tempo trascorso",
+        "Controllo da fare",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Accesso al gestionale non disponibile",
+          "Ufficio Vela",
+          "Bloccante",
+          "Tecnico Nubi",
+          "14/05/2026 08:20",
+          "2 h 10 min",
+          "Verificare il ripristino con l'ufficio",
+          "In lavorazione"
+        ],
+        [
+          "Stampante condivisa ferma",
+          "Ufficio Lumo",
+          "Urgente",
+          "Tecnico Orbi",
+          "14/05/2026 08:45",
+          "1 h 45 min",
+          "Confermare la stampa di prova",
+          "Da verificare"
+        ],
+        [
+          "Postazione senza collegamento",
+          "Ufficio Cobalto",
+          "Bloccante",
+          "Tecnico Nubi",
+          "14/05/2026 09:05",
+          "1 h 25 min",
+          "Assegnare l'incaricato",
+          "Assegnata"
+        ],
+        [
+          "Cartella condivisa non aggiornata",
+          "Ufficio Vela",
+          "Urgente",
+          "Tecnico Nubi",
+          "12/05/2026 09:50",
+          "Aperta da 2 giorni",
+          "Aggiornare l'ufficio sul seguito",
+          "In lavorazione"
+        ]
+      ],
+      "form": []
+    }
+  ],
+  "theme": {
+    "palette": "terracotta",
+    "fonts": "classico"
+  }
+}
