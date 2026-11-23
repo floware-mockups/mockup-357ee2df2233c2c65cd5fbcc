@@ -274,6 +274,14 @@
       "role": "cell",
       "pageId": "dettaglio-e-chiusura",
       "column": "Richiesta"
+    },
+    {
+      "name": "DaChiudereOggi",
+      "title": "Da chiudere oggi",
+      "description": "Collega le scadenze del Cruscotto alle richieste e agli stati del Registro richieste.",
+      "role": "section",
+      "pageId": "cruscotto",
+      "position": "metrics"
     }
   ]
 }
